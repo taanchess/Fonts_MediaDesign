@@ -238,12 +238,22 @@
   font-display:swap;
 }
 
-/* =========================
-   RS NEWS Sans Variable (verified)
-   wght: 50–900
-   wdth: 75–125 (mapped to font-stretch %)
-   slnt: 0–10   (mapped to oblique angle)
-========================= */
+/*
+=================================================================
+HOW TO USE VARIABLE FONTS:
+=================================================================
+Use font-variation-settings in style attribute or CSS:
+
+style={{ fontVariationSettings: '"wght" 700, "wdth" 100, "slnt" 10' }}
+
+- wght = font weight (толщина)
+- wdth = font width (ширина) 
+- slnt = slant/italic angle (наклон)
+
+DO NOT use fontStyle: 'italic' - it won't work!
+Use "slnt" axis in fontVariationSettings instead.
+=================================================================
+*/
 @font-face{
   font-family:"RS NEWS Sans";
   src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2");
