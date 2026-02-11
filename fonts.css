@@ -216,10 +216,23 @@
 }
 
 /* =========================
-   Roboto Flex Variable (verified from your file)
+   Roboto Flex Variable (verified)
    wght: 100–1000
    wdth: 25–151  (mapped to font-stretch %)
    slnt: -10–0   (mapped to oblique angle)
+   
+   USAGE EXAMPLES:
+   font-family: 'Roboto Flex', sans-serif;
+   
+   Normal: font-variation-settings: "wght" 400, "wdth" 100, "slnt" 0;
+   Bold: font-variation-settings: "wght" 700, "wdth" 100, "slnt" 0;
+   Italic (slant left): font-variation-settings: "wght" 400, "wdth" 100, "slnt" -10;
+   Bold Italic: font-variation-settings: "wght" 700, "wdth" 100, "slnt" -10;
+   Narrow: font-variation-settings: "wght" 400, "wdth" 25, "slnt" 0;
+   Wide: font-variation-settings: "wght" 400, "wdth" 151, "slnt" 0;
+   
+   ⚠️ DO NOT use fontStyle: 'italic' - use "slnt" axis instead!
+   ⚠️ slnt is NEGATIVE for Roboto Flex (-10 to 0)
 ========================= */
 @font-face{
   font-family:"Roboto Flex";
