@@ -1,23 +1,295 @@
-@font-face {
-  font-family: "Gilroy";
-  src: url("fonts/Gilroy-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+/* fonts.css (GitHub Pages) — for Figma Make
+   Base folder: https://taanchess.github.io/Fonts_MediaDesign/fonts/
+*/
+
+/* =========================
+   BIZ UDPGothic
+========================= */
+@font-face{
+  font-family:"BIZ UDPGothic";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/BIZ%20UDPGothic%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"BIZ UDPGothic";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/BIZ%20UDPGothic%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
 }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("fonts/Gilroy-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+/* =========================
+   FiraGO
+========================= */
+@font-face{
+  font-family:"FiraGO";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/FiraGO%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"FiraGO";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/FiraGO%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
 }
 
-@font-face {
-  font-family: "RS NEWS Sans";
-  src: url("fonts/RS-NEWS-Sans-Variable.woff2") format("woff2-variations");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
+/* =========================
+   GHEA Grapalat
+========================= */
+@font-face{
+  font-family:"GHEA Grapalat";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/GHEA%20Grapalat%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"GHEA Grapalat";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/GHEA%20Grapalat%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Inter (Variable + static fallback)
+   If VF works, it will cover 100–900; static 400/700 still ok as fallback.
+========================= */
+@font-face{
+  font-family:"Inter";
+  src:
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Variable.woff2") format("woff2"),
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Variable.woff2") format("woff2-variations");
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   IRANSans
+========================= */
+@font-face{
+  font-family:"IRANSans";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/IRANSans%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"IRANSans";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/IRANSans%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Kameron
+========================= */
+@font-face{
+  font-family:"Kameron";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Kameron%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Kameron";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Kameron%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Merriweather (only Bold provided)
+========================= */
+@font-face{
+  font-family:"Merriweather";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Merriweather%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Microsoft YaHei
+========================= */
+@font-face{
+  font-family:"Microsoft YaHei";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Microsoft%20YaHei%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Microsoft YaHei";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Microsoft%20YaHei%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Noto Sans Devanagari (Regular only)
+========================= */
+@font-face{
+  font-family:"Noto Sans Devanagari";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Noto%20Sans%20Devanagari%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Noto Sans KR
+========================= */
+@font-face{
+  font-family:"Noto Sans KR";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Noto%20Sans%20KR%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Noto Sans KR";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Noto%20Sans%20KR%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Poppins (Bold only)
+========================= */
+@font-face{
+  font-family:"Poppins";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Poppins%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   PT Root UI
+========================= */
+@font-face{
+  font-family:"PT Root UI";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/PT%20Root%20UI%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"PT Root UI";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/PT%20Root%20UI%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Raleway (Medium only)
+========================= */
+@font-face{
+  font-family:"Raleway";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Raleway%20Medium.woff2") format("woff2");
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Roboto Flex Variable
+   (Typical wght: 100–1000. If your file supports a different range, adjust.)
+========================= */
+@font-face{
+  font-family:"Roboto Flex";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Roboto%20Flex%20Variable.woff2") format("woff2");
+  font-weight:100 1000;
+  font-stretch:25% 151%;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face{
+  font-family:"Roboto Flex";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Roboto%20Flex%20Variable.woff2") format("woff2");
+  font-weight:100 1000;
+  font-stretch:25% 151%;
+  font-style:oblique -10deg 0deg;
+  font-display:swap;
+}
+
+/* =========================
+   RS NEWS Sans Variable (verified)
+   axes: wght 50–900, wdth 75–125, slnt 0–10
+========================= */
+@font-face{
+  font-family:"RS NEWS Sans";
+  src:
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2"),
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2-variations");
+  font-weight:50 900;
+  font-stretch:75% 125%;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"RS NEWS Sans";
+  src:
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2"),
+    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2-variations");
+  font-weight:50 900;
+  font-stretch:75% 125%;
+  font-style:oblique 0deg 10deg;
+  font-display:swap;
+}
+
+/* =========================
+   Tahoma
+========================= */
+@font-face{
+  font-family:"Tahoma";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Tahoma%20Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Tahoma";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Tahoma%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* =========================
+   Ubuntu (Bold only)
+========================= */
+@font-face{
+  font-family:"Ubuntu";
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Ubuntu%20Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
 }
