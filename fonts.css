@@ -1,5 +1,5 @@
 /* fonts.css (GitHub Pages) — for Figma Make
-   Base folder: https://taanchess.github.io/Fonts_MediaDesign/fonts/
+   Base folder (woff2 files): https://taanchess.github.io/Fonts_MediaDesign/fonts/
 */
 
 /* =========================
@@ -58,13 +58,10 @@
 
 /* =========================
    Inter (Variable + static fallback)
-   If VF works, it will cover 100–900; static 400/700 still ok as fallback.
 ========================= */
 @font-face{
   font-family:"Inter";
-  src:
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Variable.woff2") format("woff2"),
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Variable.woff2") format("woff2-variations");
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Inter%20Variable.woff2") format("woff2");
   font-weight:100 900;
   font-style:normal;
   font-display:swap;
@@ -121,7 +118,7 @@
 }
 
 /* =========================
-   Merriweather (only Bold provided)
+   Merriweather (Bold only)
 ========================= */
 @font-face{
   font-family:"Merriweather";
@@ -219,8 +216,10 @@
 }
 
 /* =========================
-   Roboto Flex Variable
-   (Typical wght: 100–1000. If your file supports a different range, adjust.)
+   Roboto Flex Variable (verified from your file)
+   wght: 100–1000
+   wdth: 25–151  (mapped to font-stretch %)
+   slnt: -10–0   (mapped to oblique angle)
 ========================= */
 @font-face{
   font-family:"Roboto Flex";
@@ -230,7 +229,6 @@
   font-style:normal;
   font-display:swap;
 }
-
 @font-face{
   font-family:"Roboto Flex";
   src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/Roboto%20Flex%20Variable.woff2") format("woff2");
@@ -242,13 +240,13 @@
 
 /* =========================
    RS NEWS Sans Variable (verified)
-   axes: wght 50–900, wdth 75–125, slnt 0–10
+   wght: 50–900
+   wdth: 75–125 (mapped to font-stretch %)
+   slnt: 0–10   (mapped to oblique angle)
 ========================= */
 @font-face{
   font-family:"RS NEWS Sans";
-  src:
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2"),
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2-variations");
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2");
   font-weight:50 900;
   font-stretch:75% 125%;
   font-style:normal;
@@ -256,9 +254,7 @@
 }
 @font-face{
   font-family:"RS NEWS Sans";
-  src:
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2"),
-    url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2-variations");
+  src:url("https://taanchess.github.io/Fonts_MediaDesign/fonts/RS%20NEWS%20Sans%20Variable.woff2") format("woff2");
   font-weight:50 900;
   font-stretch:75% 125%;
   font-style:oblique 0deg 10deg;
