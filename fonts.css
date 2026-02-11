@@ -216,7 +216,7 @@
 }
 
 /* =========================
-   Roboto Flex Variable (verified)
+   Roboto Flex
    wght: 100–1000
    wdth: 25–151  (mapped to font-stretch %)
    slnt: -10–0   (mapped to oblique angle)
@@ -253,7 +253,7 @@
 
 /*
 =================================================================
-HOW TO USE VARIABLE FONTS:
+HOW TO USE VARIABLE FONTS RS NEWS Sans:
 =================================================================
 Use font-variation-settings in style attribute or CSS:
 
